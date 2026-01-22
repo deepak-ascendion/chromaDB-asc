@@ -1315,6 +1315,7 @@ impl GrpcSysDb {
             }),
             dimension: dimension.map(|dim| dim as i32),
             configuration_json_str,
+            cursor_updates: None,
         };
 
         client.update_collection(req).await.map_err(|e| {
