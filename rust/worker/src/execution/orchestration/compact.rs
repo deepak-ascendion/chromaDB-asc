@@ -2844,6 +2844,7 @@ mod tests {
         sysdb
             .flush_compaction(
                 tenant.clone(),
+                db.clone().into(),
                 collection_id,
                 -1,
                 0,

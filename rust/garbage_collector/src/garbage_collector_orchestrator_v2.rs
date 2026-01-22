@@ -1192,6 +1192,7 @@ mod tests {
         sysdb
             .flush_compaction(
                 tenant.clone(),
+                database.clone(),
                 root_collection_id,
                 0,
                 0,
@@ -1210,6 +1211,7 @@ mod tests {
         sysdb
             .flush_compaction(
                 tenant.clone(),
+                database.clone(),
                 root_collection_id,
                 0,
                 1,
@@ -1231,6 +1233,7 @@ mod tests {
         sysdb
             .flush_compaction(
                 tenant,
+                database.clone(),
                 root_collection_id,
                 0,
                 2,

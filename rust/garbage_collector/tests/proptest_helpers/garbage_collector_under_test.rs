@@ -239,6 +239,7 @@ impl StateMachineTest for GarbageCollectorUnderTest {
                         .sysdb
                         .flush_compaction(
                             ref_state.tenant.clone(),
+                            ref_state.db_name.clone(),
                             collection_id,
                             0,
                             ref_state.max_version_for_collection(collection_id).unwrap() as i32 - 1,
