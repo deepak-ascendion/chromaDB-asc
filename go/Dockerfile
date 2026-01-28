@@ -1,4 +1,4 @@
-FROM golang:bookworm as builder
+FROM golang:1.22-bookworm as builder
 WORKDIR /build-dir
 RUN apt-get update && apt-get install -y make git bash
 
