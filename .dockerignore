@@ -10,7 +10,6 @@ __pycache__
 .pytest_cache
 **/node_modules
 target
-go/bin
 .mypy_cache
 dist
 .next

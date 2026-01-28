@@ -2,9 +2,6 @@
 **/.DS_Store
 
 **/__pycache__
-go/bin/
-go/**/testdata/
-go/coordinator/bin/
 
 clients/js/package-lock.json
 
